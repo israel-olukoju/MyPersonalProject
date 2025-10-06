@@ -29,7 +29,7 @@ public class LotteryGame {
         // Exact winning number
         boolean exactWinningLottery = guess1 == lotteryNumber1 && guess2 == lotteryNumber2 && guess3 == lotteryNumber3 && guess4 == lotteryNumber4;
         // Exact winning number but not the right position
-        boolean notExactButWinningLottery = guess1 == lotteryNumber2 && guess1 == lotteryNumber3 && guess1 == lotteryNumber4 && guess2 == lotteryNumber1 && guess2 == lotteryNumber3 && guess2 == lotteryNumber4 && guess3 == lotteryNumber1 && guess3 == lotteryNumber2 && guess3 == lotteryNumber4 && guess4 == lotteryNumber1 && guess4 == lotteryNumber2 && guess4 == lotteryNumber3;
+        boolean notExactButWinningLottery = guess1 == lotteryNumber2 || guess1 == lotteryNumber3 || guess1 == lotteryNumber4 || guess2 == lotteryNumber1 || guess2 == lotteryNumber3 || guess2 == lotteryNumber4 || guess3 == lotteryNumber1 || guess3 == lotteryNumber2 || guess3 == lotteryNumber4 || guess4 == lotteryNumber1 || guess4 == lotteryNumber2 || guess4 == lotteryNumber3;
         // Only one correct number
         boolean oneCorrectWinningLottery = guess1 == lotteryNumber1 || guess1 == lotteryNumber2 || guess1 == lotteryNumber3 || guess1 == lotteryNumber4 || guess2 == lotteryNumber1 || guess2 == lotteryNumber2 || guess2 == lotteryNumber3 || guess2 == lotteryNumber4 || guess3 == lotteryNumber1 || guess3 == lotteryNumber2 || guess3 == lotteryNumber3 || guess3 == lotteryNumber4 || guess4 == lotteryNumber1 || guess4 == lotteryNumber2 || guess4 == lotteryNumber3 || guess4 == lotteryNumber4;
 
