@@ -50,6 +50,7 @@ public class LotteryGame {
         }
         else {
             System.out.println("Insufficient Amount");
+            System.exit(0);
         }
         System.out.println("The wining lottery number is " + lotteryNumber1 + " " + lotteryNumber2 + " " + lotteryNumber3 + " " + lotteryNumber4);
         System.out.println("Check your lottery number>>  " + guess1 + " " + guess2 + " " + guess3 + " " + guess4);
