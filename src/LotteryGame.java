@@ -49,8 +49,8 @@ public class LotteryGame {
             }
         }
         else {
-            System.out.println("Insufficient Amount");
-            System.exit(1);
+            System.out.println("Can't accept, input exactly $50");
+            System.exit(1); // This to close the program entirely
         }
         System.out.println("The wining lottery number is " + lotteryNumber1 + " " + lotteryNumber2 + " " + lotteryNumber3 + " " + lotteryNumber4);
         System.out.println("Check your lottery number>>  " + guess1 + " " + guess2 + " " + guess3 + " " + guess4);
